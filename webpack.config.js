@@ -7,10 +7,10 @@ module.exports = {
   },
   output: {
     filename: '[name].js',
-    path: path.join(__dirname, 'app/javascripts')
+    path: path.join(__dirname, 'docs/javascripts')
   },
   devServer: {
-    contentBase: './app',
+    contentBase: './docs',
     publicPath: '/javascripts/',
     watchContentBase: true,
     open: true
